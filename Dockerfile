@@ -1,12 +1,15 @@
-# Tags: latest, 2.5.0-debian-10-r21, 2.5.0, 2-debian-10, 2
+# Tags: latest, 2.5.0-debian-10-r22, 2.5.0, 2-debian-10, 2
 FROM bitnami/harbor-registry:latest
-FROM bitnami/harbor-registry:2.5.0-debian-10-r21
+FROM bitnami/harbor-registry:2.5.0-debian-10-r22
 FROM bitnami/harbor-registry:2.5.0
 FROM bitnami/harbor-registry:2-debian-10
 FROM bitnami/harbor-registry:2
 
 # Tags: _
 FROM bitnami/harbor-registry:_
+
+# Tags: 2.5.0-debian-10-r21
+FROM bitnami/harbor-registry:2.5.0-debian-10-r21
 
 # Tags: 2.5.0-debian-10-r20
 FROM bitnami/harbor-registry:2.5.0-debian-10-r20
